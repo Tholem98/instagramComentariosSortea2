@@ -51,8 +51,3 @@ function mostrar() {
   */
 }
 
-
-/*
-something(x3
-some(x2
-*/
