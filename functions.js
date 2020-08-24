@@ -44,11 +44,11 @@ function mostrar() {
     return accounts
   })
 
-  document.getElementById("mostrar").innerText = result
-  /*result.map((account)=>{
+  //document.getElementById("mostrar").innerText = result
+  result.map((account)=>{
   document.getElementById("mostrar").innerText +=  
   account+"\n"
   })
-  */
+  
 }
 
