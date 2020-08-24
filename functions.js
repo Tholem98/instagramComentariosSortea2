@@ -34,8 +34,9 @@ function mostrar() {
 
 	result= juntarRepetidos(result)
 
-  let accounts = ""
+
   result = result.map((el) => {
+  let accounts = ""
     for (let i = 0; i < Number(el[1]); i++) {
       accounts += el[0] + "  " + (i + 1) + "\n"
     }
