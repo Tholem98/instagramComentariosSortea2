@@ -8,8 +8,6 @@ function juntarRepetidos(result){
   cleanArr = result.filter(function(item, index, array) {
     return array.map((account) => account[0]).indexOf(item[0]) === index;
   })
-
-
   repArr.map((account) => {
     let accountIndex = cleanArr.map((account) => account[0]).indexOf(account[0])
     if(account[1].includes("+")){
